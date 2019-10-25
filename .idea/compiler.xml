@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="fishP.FishPoint.main" target="1.8" />
+      <module name="fishP.FishPoint.test" target="1.8" />
       <module name="FishPoint.main" target="1.8" />
       <module name="FishPoint.test" target="1.8" />
     </bytecodeTargetLevel>

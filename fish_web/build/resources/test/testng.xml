@@ -5,6 +5,8 @@
     <test name="FishPoint">
         <classes>
             <class name="test.TestBase"/>
+            <class name="test.BoxTest"/>
+
 
         </classes>
     </test>

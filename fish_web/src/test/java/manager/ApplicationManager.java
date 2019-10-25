@@ -30,7 +30,9 @@ public class ApplicationManager {
         helperBox = new HelperBox(driver);
         helperLogin.openSite("https://fishpoint.ru/");
         helperLogin.logIn();
+
     }
+
     public void stop() {
         driver.quit();
         driver = null;

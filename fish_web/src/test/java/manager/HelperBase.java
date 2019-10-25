@@ -25,5 +25,7 @@ public class HelperBase {
         new Actions(driver).moveToElement(driver.findElement(locator)).click().perform();
     }
 
-
+public void focusOn(By locator){
+        new Actions(driver).moveToElement(driver.findElement(locator)).perform();
+    }
 }
